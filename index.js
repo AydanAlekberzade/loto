@@ -1,7 +1,5 @@
 var box=[]
 
- 
-
 var a= setInterval( function() {
       if (box.length ==40) {
             alert("Congrats!")
@@ -12,6 +10,5 @@ var a= setInterval( function() {
        console.log(option);
        box.push(option) 
       }
-
 
 },100)
